@@ -1,0 +1,69 @@
+# SK-B<!DOCTYPE html><html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday SK 🎂</title>
+<style>
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  animation: fadeIn 2s ease-in-out;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px);} 
+  to { opacity: 1; transform: translateY(0);} 
+}
+h1 {
+  color: #ff4d6d;
+}
+p {
+  color: #333;
+}
+.btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  background: #ff4d6d;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.hidden {
+  display: none;
+  margin-top: 20px;
+}
+</style>
+</head>
+<body><div class="card">
+  <h1>🎉 Happy Birthday SK 🎉</h1>
+  <p>Today is your special day 💖</p><button class="btn" onclick="showMessage()">Open Surprise 🎁</button>
+
+  <div id="msg" class="hidden">
+    <p>Dear SK 💌</p>
+    <p>You are an amazing person ✨<br>
+    A great singer 🎤, hardworking 💪, soft-hearted 💖,<br>
+    kind 😊, mature 😌 and super handsome 😎</p><p>Stay happy always 🥰<br>
+Keep shining 🌟</p>
+
+<p>Once again Happy Birthday 🎂❤️</p>
+
+  </div>
+</div><script>
+function showMessage() {
+  document.getElementById("msg").style.display = "block";
+}
+</script></body>
+</html>IRTHDAY02
